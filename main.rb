@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'rfusefs'
-require './wikipedia.rb'
+require './lib/wikipedia.rb'
 
 class WikiNgFS
   class WikiFileHandle
