@@ -79,7 +79,7 @@ Abortion.txt
 
 ```bash
 > sudo su
-> rb2exe main.rb --add=. --daemon -o=mount.wikiro
+> rb2exe main.rb --add=. --daemon -o mount.wikiro
 ```
 
 ## Contributing
