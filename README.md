@@ -74,6 +74,14 @@ Abortion.txt
 /usr/sbin/mount.wikiro /mnt/test fuse user,noauto    0    0
 ```
  -->
+
+## Compiling (with rb2exe)
+
+```bash
+> sudo su
+> rb2exe main.rb --add=. --daemon -o=mount.wikiro
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/loureirorg/wikirofs.
