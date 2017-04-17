@@ -5,7 +5,7 @@ Wikiro is a virtual filesystem designed to mount Wikipedia in your filesystem.
 ## Installation
 
 ```bash
-> wget "https://github.com/loureirorg/wikirofs/releases/download/0.1.4/mount.wikiro"
+> wget "https://github.com/loureirorg/wikirofs/releases/download/0.1.5/mount.wikiro"
 > mv mount.wikiro /usr/sbin
 > chmod +x /usr/sbin/mount.wikiro
 ```
@@ -87,6 +87,7 @@ Abortion.txt
 
 ```bash
 > sudo su
+> bundle install
 > rb2exe main.rb --add=. --daemon -o mount.wikiro
 ```
 
